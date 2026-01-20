@@ -1,6 +1,157 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
     /* color: #FFFFFF; */
+}
+h2{
+    color: #FFFFFF;
+}
+/* span{
+    background: linear-gradient( #9100F8 70% ,#FB09B4 25%, #f7ef96 5%);
+} */
+
+ .hamburger{
+    display: none;
+ }
+
+ nav{
+    width: auto;
+    /* max-width: 1400px; */
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1A0B2E;
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 35px;
+
+}
+.container{
+    /* url(./assets/microphone.png), */
+     
+    background-image: url(./assets/hero-circle.png), url(./assets/hero-bg.png);
+    background-repeat: no-repeat ,no-repeat,no-repeat;
+    
+    background-position-x: center;
+    background-position-y:  25%;
+    width: auto;
+    max-width: 1600px;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-center{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+    
+
+}
+.mice-img img{
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+
+
+}
+h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FFFFFF;
+
+}
+p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #FFFFFF;
+    line-height: 20px;
+
+}
+
+
+
+
+
+
+
+#podcast{
+    background-color: #1A0B2E;
+    color: #FFFFFF;
+    /* width: 100%;
+    max-width: 1600px; */
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* gap: 80px; */
+}
+.pre-about{
+    width: 100%;
+    max-width: 1600px;
+    text-align: center;
+}
+
+hr{
+    width: 100%; 
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 0;
+    border-top: 1px solid #ffffff1e;
+    margin: 40px 0;
+}
+
+.late-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+.star-item h3{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #00FF88;
+    margin-bottom: 5px;
+}
+.About-card p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #FFFFFF;
+    line-height: 25px;
+    margin: 0 auto 20px;
+
+}
+.About-card h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+
+}
+.star-item p{
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
 }
