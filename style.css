@@ -319,7 +319,9 @@ margin-top: 40px;
 
  .feature{
     display: grid;
-    grid-template-columns: repeat(3,380px);
+    grid-template-columns: repeat(3,1fr);
+    width: auto;
+    max-width: 1600px;
     gap: 30px;
     margin-bottom: 120px;
     
@@ -374,7 +376,9 @@ iframe{
     padding: 40px 40px;
      background-color: #250D44;
       display: grid;
-      grid-template-columns: repeat(1, 1140px);
+      grid-template-columns: repeat(1, 1fr);
+      width: auto;
+    max-width: 1600px;
       border-radius: 25px;
 }
 
