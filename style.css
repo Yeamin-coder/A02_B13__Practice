@@ -81,7 +81,7 @@ p{
     font-size: 16px;
     font-weight: 100;
     color: #FFFFFF;
-    line-height: 20px;
+    line-height: 25px;
 
 }
 
@@ -89,7 +89,7 @@ p{
 
 
 
-
+/* third part */
 
 #podcast{
     background-color: #1A0B2E;
@@ -155,3 +155,115 @@ hr{
     letter-spacing: 1px;
     
 }
+
+
+
+/* fourth part */
+
+.hero{
+     background-color: #230E3D;
+    color: #FFFFFF;
+    display: flex;
+   flex-direction: column;
+   height: 1130px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+}
+
+.hero-container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 25px;
+}
+
+.hero-content h2{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+   
+}
+
+.hero-card-one{
+    grid-row: span 2;
+}
+
+.hero-card-two, .hero-card-three{
+    grid-column: span 2;
+}
+
+.hero-card-four{
+    grid-column: span 2;
+}
+
+.hero-card-one,.hero-card-two, .hero-card-three,.hero-card-four,.hero-card-five{
+    background-color: #351165;
+    padding: 40px 40px;
+    border-radius: 40px;
+}
+.hero-card-one h4{
+    font-size: 24px;
+    font-weight: bold;  
+    margin-bottom: 10px; 
+}
+.hero-card-two h4{
+     font-size: 24px;
+    font-weight: bold;  
+    margin-bottom: 10px; 
+
+}
+
+.hero-card-three h4{
+     font-size: 24px;
+    font-weight: bold;  
+    margin-bottom: 10px; 
+}
+
+.hero-card-four h4{
+     font-size: 24px;
+    font-weight: bold;  
+    margin-bottom: 10px; 
+}
+
+.hero-card-five h4{
+     font-size: 24px;
+    font-weight: bold;  
+    margin-bottom: 10px; 
+}
+
+.hero-card-one img{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.hero-card-two,
+.hero-card-three,
+.hero-card-four,
+.hero-card-five,
+ img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* .hero-card-three img{
+margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero-card-four img{
+margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero-card-five img{
+margin-top: 40px;
+    margin-bottom: 10px;
+} */
+
