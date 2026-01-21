@@ -123,8 +123,8 @@
 }
 .mice-image{
     position: absolute;
-    top: 28%;
-    right: 46.5%;
+    top: 29%;
+    right: 47%;
 }
 
 .challenge{
@@ -464,6 +464,11 @@ iframe{
     line-height: 25px;
     margin: 0 auto 20px;
 
+}
+.clock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* meet the host */
